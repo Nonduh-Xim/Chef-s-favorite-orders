@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef's Favouritr Orders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Chef's Favourite Orders</h1>
+        <p>Create and manage orders based on the chef's favourite meals</p>
+    </header>
+
+    <main>
+
+        <section class="order-section">
+
+            <h2>Create New Order</h2>
+
+            <input type="text" id="ingredientInput" placeholder="Enter main ingredient (example: beef, chicken breast)" Create Order="box">
+
+            <input type="number" id="completeOrderInput" placeholder="Enter order number" Complete Order="box">
+            <button id="createOrderBtn"> add to order</button>
+
+            <p id="message"></p>
+            <div id="loading">Loading chef's favourite meal</div>
+
+        </section>
+
+
+        <section>
+            <h2>Incomplete Orders</h2>
+            <div id="orderContainer"></div>
+        </section>
+
+
+        <section>
+            <h2>Complete an Order</h2>
+
+            <input type="number" id="completeOrderInput" placeholder="Enter order number" Complete Order="box">
+
+        </section>
+
+
+        
+        <section>
+            <h2>Order Statistics</h2>
+            <p id="stats"></p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>JavaScript Capstone Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
