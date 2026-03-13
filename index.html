@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chef's Favourite Orders</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Chef's Favourite Orders</h1>
+        <p>Create and manage orders based on the chef's favourite meals</p>
+    </header>
+
+    <main>
+
+<!-- CREATE ORDER -->
+        <section>
+
+            <h2>Create New Order</h2>
+
+            <input type="text" id="ingredientInput" placeholder="Enter ingredient (beef, chicken, rice)">
+            <button id="createOrderBtn">Create Order</button>
+
+            <p id="message"></p>
+            <div id="loading">👨‍🍳 Chef is preparing your fav...</div>
+
+        </section>
+
+
+<!-- INCOMPLETE ORDERS -->
+        <section>
+
+            <h2>Incomplete Orders</h2>
+
+            <div id="ordersContainer"></div>
+
+        </section>
+
+
+<!-- COMPLETE ORDER -->
+        <section>
+
+            <h2>Complete Order</h2>
+
+            <input type="number"id="completeOrderInput"placeholder="Enter order number">
+
+            <button id="completeOrderBtn">Complete Order</button>
+
+        </section>
+
+
+<!-- STATS -->
+        <section>
+
+            <h2>Order Statistics</h2>
+
+            <p id="stats"></p>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>JavaScript Capstone Project | HyperionDev</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
